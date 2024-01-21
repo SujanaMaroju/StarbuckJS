@@ -20,7 +20,7 @@
 
 <body>
    
-   
+    
    
     <!--header section starts-->
     <header class="header">
@@ -56,15 +56,12 @@
         <div class="cart-items-container">
 
 
-            <div class="cart-items">
-
-
+            <!-- <div class="cart-items">
                 <span class="fas fa-times"></span>
                 <img src="images/pr1.jpeg" alt="">
                 <div class="content">
                     <h3>Cart item 01</h3>
                     <div class="price">$15.99</div>
-            
                 </div>
             </div>
 
@@ -94,10 +91,14 @@
                 </div>
 
             </div>
+ -->
 
-
-            <a href="#" class="btn">Checkout now</a>
-        
+            <a href="#" class="btn" >Checkout now</a>
+            
+            <div class="total" >
+                
+                
+            </div>
         
         
         
@@ -170,37 +171,37 @@
             <img src="images/pr1.jpeg" alt="">
             <h3>Frappacino </h3>
             <div class="price">$5.99 <span>8.99</span></div>
-            <a href="#"class='btn'>add to cart</a>
+            <a class='btn' onclick="addtocart('Frappacino',5.99,'pr1.jpeg')">add to cart</a>
         </div>
         <div class="box">
-            <img src="images/pr2.webp" alt="">
+            <img src="images/pr2.jpeg" alt="">
             <h3>Latte</h3>
             <div class="price">$7.99 <span>10.99</span></div>
-            <a href="#"class='btn'>add to cart</a>
+            <a class='btn' onclick="addtocart('Latte',7.99,'pr2.jpeg')">add to cart</a>
         </div>
         <div class="box">
             <img src="images/pr5.jpeg" alt="">
             <h3>Chocolte mocha </h3>
             <div class="price">$6.99 <span>9.99</span></div>
-            <a href="#"class='btn'>add to cart</a>
+            <a class='btn' onclick="addtocart('Chocolte mocha',6.99,'pr3.jpeg')">add to cart</a>
         </div>
         <div class="box">
             <img src="images/pr4.jpeg" alt="">
             <h3>Chai latte</h3>
             <div class="price">$12.99 <span>20.99</span></div>
-            <a href="#"class='btn'>add to cart</a>
+            <a class='btn' onclick="addtocart('Chai latte',12.99,'pr4.jpeg')">add to cart</a>
         </div>
         <div class="box">
             <img src="images/pr3.jpeg" alt="">
             <h3>Pumpkin spice Latte </h3>
             <div class="price">$4.99 <span>6.99</span></div>
-            <a href="#"class='btn'>add to cart</a>
+            <a class='btn' onclick="addtocart('Pumpkin spice Latte',4.99,'pr5.jpeg')">add to cart</a>
         </div>
         <div class="box">
             <img src="images/pr6.jpeg" alt="">
-            <h3>Gingerbread oatmeal chai </h3>
+            <h3>Gingerbread chai </h3>
             <div class="price">$7.99 <span>11.99</span></div>
-            <a href="#"class='btn'>add to cart</a>
+            <a class='btn' onclick="addtocart('Gingerbread chai',7.99,'pr6.jpeg')">add to cart</a>
         </div>
         
         
@@ -581,17 +582,10 @@
 </section>
 
 
-
-
-
-
-
-
-
-
 <!-- footer section ends-->
 
 <!--js link file-->
+<!--you can see the website in internet using this https://starbucksbsm.netlify.app"-->
 <script src="coffee.js"></script> 
 </body>
 </html>
